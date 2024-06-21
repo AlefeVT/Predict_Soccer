@@ -1,0 +1,7 @@
+This file is just to save some info to recall later:
+
+- TensorBoard for seeing the info in the process;
+
+- Date changed from api to get games for test ( change back later );
+
+- Using RandomForest to predict

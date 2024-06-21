@@ -1,0 +1,10 @@
+pandas
+numpy
+python-dotenv
+requests
+tensorflow
+xgboost
+colorama
+tqdm
+scikit-learn
+unidecode
