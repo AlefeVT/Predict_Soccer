@@ -1,4 +1,4 @@
-def expected_value(Pwin, odds):
+def expected_value(probability, odds):
     """
     Calcula o valor esperado (EV) de uma aposta.
 
@@ -9,5 +9,4 @@ def expected_value(Pwin, odds):
     Returns:
         float: Valor esperado da aposta.
     """
-    Ploss = 1 - Pwin
-    return round((Pwin * (odds - 1)) - (Ploss * 100), 2)
+    return round((probability * (odds - 1) - (1 - probability)) * 100, 2)
